@@ -1,7 +1,3 @@
-// The output of this task is a JSON hash containing:
-// - the key of each element in the hash will be the ‘name’ attribute of the control.
-// - the corresponding value for each control name key will be an ‘autofill detail token’ describing your best guess at the most suitable section (optional), address type (optional) and autofill field name for the control as per the WHATWG autofill spec.
-
 {
   "Ecom_ShipTo_Postal_Name_Prefix": "honorific-prefix",
   "Ecom_ShipTo_Postal_Name_First": "given-name",
@@ -52,13 +48,13 @@
   "Ecom_Payment_Card_Type": "cc-type",
   "Ecom_Payment_Card_Number": "cc-number",
   "Ecom_Payment_Card_Verification": "cc-csc",
-  "Ecom_Payment_Card_ExpDate_Day": "cc-csc", //month
-  "Ecom_Payment_Card_ExpDate_Month": "", //numeric
-  "Ecom_Payment_Card_ExpDate_Year": "", //numeric
+  "Ecom_Payment_Card_ExpDate_Day": "cc-csc",
+  "Ecom_Payment_Card_ExpDate_Month": "",
+  "Ecom_Payment_Card_ExpDate_Year": "",
   "Ecom_Payment_Card_Protocol": "",
   "Ecom_ConsumerOrderID": "",
   "Ecom_User_ID": "",
-  "Ecom_User_Password": "current-password", //password type
+  "Ecom_User_Password": "current-password",
   "Ecom_SchemaVersion": "",
   "Ecom_WalletID": ""
 }
